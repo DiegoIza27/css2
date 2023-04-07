@@ -1,0 +1,42 @@
+
+
+body{
+    background-color: brown;
+}
+
+.menu{
+    background-color: black;
+}
+.menu-nav_item{
+    list-style: none;
+    /*  se forma de manera horizontal  */
+    color: #ffff;
+    text-decoration: none;
+}
+.menu-nav_item2{
+    list-style: none;
+    color:burlywood;
+    text-shadow: 10px 10px 5px blanchedalmond;
+    text-decoration: none;
+
+}
+li{
+    /* se forma de manera horizontal  */
+    display: inline-block;
+}
+/* seudo-clase */
+/* cambia el estado cuando paso el mause  */
+.menu-nav_item2:hover{
+    color: white;
+    text-decoration: underline;
+}
+/* cuando se da clic se activa  */
+.menu-nav_item2:active{
+    color:green;
+    text-decoration: wavy;
+}
+/* pseudoelemento */
+/* guardar algunos detalles algun separador  */
+a::after{
+    content: "*/";
+}
